@@ -67,10 +67,13 @@ export default class App extends React.Component {
   }
 }
 
+const $primary = '#4A90E2',
+      $secondary = '#114D94';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#4A90E2',
+    backgroundColor: $primary,
     alignItems: 'center',
     justifyContent: 'space-around',
   },
@@ -89,7 +92,7 @@ const styles = StyleSheet.create({
   button: {
     width: 60,
     height: 60,
-    backgroundColor: '#114D94',
+    backgroundColor: $secondary,
     margin: 2,
     alignItems: 'center',
     justifyContent: 'center',
