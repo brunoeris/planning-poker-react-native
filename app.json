@@ -2,10 +2,10 @@
   "expo": {
     "sdkVersion": "17.0.0",
     "version": "1.0.0",
-    "Name": "PlanningPoker",
+    "name": "PlanningPoker",
     "icon": "gandalf.png",
     "ios": {
-      "bundleIdentifier": "com.brunoeris.planningpoker",
+      "bundleIdentifier": "com.brunoeris.planningpoker"
     }
   }
 }
